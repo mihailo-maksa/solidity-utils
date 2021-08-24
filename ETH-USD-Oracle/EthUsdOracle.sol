@@ -3,7 +3,7 @@ pragma solidity 0.6.6;
 
 import "https://github.com/smartcontractkit/chainlink/blob/develop/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol"; /* !UPDATE, import aggregator contract */
 
-contract EthUsd {
+contract EthUsdOracle {
   AggregatorV3Interface internal ethUsd;
   uint256 internal fee;
   address public admin;
